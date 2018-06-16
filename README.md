@@ -1,1 +1,6 @@
-# brainstem_simulation
+Modeling the respiratory Central Pattern Generator with resonate-and-fire Izhikevich-Neurons
+
+Pavel Tolmachev, Rishi R. Dhingra ,Michael Pauley, Mathias Dutschmann,Jonathan H. Manton
+
+Computational models of the respiratory central pattern generator (rCPG) are usually based on biologically-plausible Hodgkin Huxley neuron models. Such models require numerous parameters and thus are prone to overfitting. The HH approach is motivated by the assumption that the biophysical prop-erties of neurons determine the network dynamics. Here, we implement the rCPG using simpler Izhikevich resonate-and-fire neurons. Our rCPG model generates a 3-phase respiratory motor pattern based on established connectivities and can reproduce previous experimental and theoretical ob-servations. Further, we demonstrate the flexibility of the model by testing whether intrinsic bursting properties are necessary for rhythmogenesis. Our simulations demonstrate that replacing predicted mandatory bursting proper-ties of pre-inspiratory neurons with spike adapting properties yields a model that generates comparable respiratory activity patterns. The latter supports our view that biophysical properties of specific respiratory neurons are over-estimated modeling parameters.     
+
